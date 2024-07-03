@@ -14,3 +14,5 @@ target_link_libraries(
   gtest_main gmock_main gmock  gtest
   ip_data
 )
+
+gtest_add_tests(TARGET ${PROJECT_NAME})
